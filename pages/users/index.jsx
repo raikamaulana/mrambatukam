@@ -22,11 +22,11 @@ export default function Users(props) {
                                 <h1 className="mb-10">User Page</h1>
                                 {dataUsers.map(user => {
                                     return (
-                                        <div key={user.id} onClick={() => router.push(`./users/${user.id}`)} className="inline-block w-96 mb-10 shadow-lg border-2 border-slate-200 p-5 ml-6 text-center bg-gradient-to-r from-white to-red-200 cursor-pointer">
+                                        <div key={user.id} onClick={() => router.push(`./users/${user.id}`)} className="inline-block w-96 mb-10 shadow-lg border-2 border-slate-200 p-5 md:ml-6 -ml-1 text-center bg-gradient-to-r from-white to-red-200 cursor-pointer hover:bg-gradient-to-r hover:from-white hover:to-blue-400 hover:scale-105 hover:transition-all hover:duration-500">
                                             <div className="">
                                                 <p className="font-mono font-bold text-2xl">{user.name}</p>
                                                 <p className="text-slate-400">{user.username}</p>
-                                                <p className="text-sky-500 font-medium hover:underline cursor-pointer select-none">{user.email}</p>
+                                                <p className="text-sky-500 font-medium hover:underline cursor-pointer select-none ">{user.email}</p>
                                             </div>
                                         </div>
                                     )

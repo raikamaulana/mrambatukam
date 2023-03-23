@@ -24,13 +24,13 @@ export default function UserDetail(props) {
                 <title>Mr. Ambatukam | {user.name}'s page</title>
                 <meta name='description' content='Website Mr. Ambatukam' />
             </Head>
-            <div>
+            <div className="pl-20 pt-28">
                 {/* <p>User Detail Page {''}{ id }{''}</p> */}
-                <p>User Detail Page {user.name}</p>
-                <p>{user.name}</p>
+                <p className="font-bold text-2xl mb-10">User Detail Page {user.name}</p>
+                <p className="text-slate-600 font-medium text-xl">{user.name}</p>
                 <p>{user.email}</p>
                 <p>{user.phone}</p>
-                <p>{user.website}</p>
+                <p className="hover:text-blue-500 hover:underline">{user.website}</p>
             </div>
         </div>
     )

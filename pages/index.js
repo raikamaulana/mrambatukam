@@ -17,17 +17,17 @@ export default function Home() {
       <div className='flex flex-col'>
         
           <div className={styles.content}>
-            <div className='ml-14 mt-28'>
-              <div className='flex mb-16 justify-evenly'>
+            <div className='ml-0 md:ml-14 mt-8 md:mt-28'>
+              <div className='block md:flex mb-16 justify-evenly'>
 
                 <div className=''>
                   <Image src='/Ambatukam.png' width={230} height={230} alt='Profile' />
                 </div>
 
-                <div className='inline-block ml-8 font-medium'>
+                <div className='inline-block ml-0 md:ml-8 font-medium'>
                   <h1 className='text-red-500'>Welcome Semuach</h1>
                   <h1 className='text-2xl'>Saya Mr. Ambatukam</h1>
-                  <h1 className={styles['huruf-gede']}>Welcome L</h1>
+                  <h1 className='text-3xl md:text-8xl '>Welcome L</h1>
                   <p>Lorem Ipoijfoajf ksandjsad ksdsadma sdkamdsiajdia saiudsaidsamkdadandaida asinsadjaoid asjdoaijdoisad aslkslas asldapo</p>
                 </div>
 
